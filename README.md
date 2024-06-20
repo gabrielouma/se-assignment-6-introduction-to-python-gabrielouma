@@ -29,13 +29,14 @@ Answer the following questions based on your understanding of Python programming
 2. Installing Python:
    - Describe the steps to install Python on your operating system (Windows, macOS, or Linux). Include how to verify the installation and set up a virtual environment.
    
-   <b>Here are the steps to install Python on different operating systems (Windows, macOS, and Linux), verify the installation, and set up a virtual environment.</b>
+   <b>Here are the steps to install Python on different operating systems (Windows) verify the installation, and set up a virtual environment.</b>
 
-    <Windows
+    Windows
     Download Python:
 
     Go to the official Python website: https://www.python.org/
     Navigate to the Downloads section and select the latest stable version of Python for Windows.
+    ![alt text](image.png)
     Run the Installer:
 
     Run the downloaded installer.
