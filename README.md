@@ -41,7 +41,8 @@ Answer the following questions based on your understanding of Python programming
 
     Run the downloaded installer.
     Make sure to check the box that says "Add Python to PATH".
-    ![alt text](download.jpg)
+    ![alt text](download.jpg) 
+
     Choose "Install Now" or customize the installation according to your preference.
 
     Complete Installation:
@@ -91,12 +92,75 @@ Answer the following questions based on your understanding of Python programming
      To deactivate the virtual environment, type deactivate and press Enter.
      ![alt text](<Screenshot 2024-06-20 205251.png>)
 
-     
+
 3. Python Syntax and Semantics:
    - Write a simple Python program that prints "Hello, World!" to the console. Explain the basic syntax elements used in the program.
 
+       # This is a comment in Python. Comments are ignored by the interpreter.
+       # They are used to add explanations or notes in the code.
+
+       # Print "Hello, World!" to the console
+            print("Hello, World!")
+        
+      
+       Comments (#): Comments in Python provide explanations or notes within the code, enhancing human readability without affecting program execution.
+
+       Print Statement (print("Hello, World!")): The print() function outputs text or variables to the console, making it a fundamental tool for displaying information in Python programs.
+
+       String Literal ("Hello, World!"): Text enclosed in quotes represents string literals, which are used to handle textual data like messages or information in Python programs.
+
+       Whitespace and Indentation: Python uses whitespace and indentation to define the structure of the code, ensuring readability and indicating blocks of code such as loops and functions.
+
+       Execution: Python programs are executed by saving them in files with a .py extension and running them using a Python interpreter, facilitating the execution of code and displaying output results.
+
+
 4. Data Types and Variables:
    - List and describe the basic data types in Python. Write a short script that demonstrates how to create and use variables of different data types.
+
+      Basic Data Types in Python:
+
+       Integer (int): Represents whole numbers without decimal points.
+
+       Float (float): Represents numbers with decimal points. 
+       
+       String (str): Represents textual data enclosed within quotes.
+
+       Boolean (bool): Represents True or False values
+
+       # Integer
+        x = 10
+        print(x, type(x))   
+       # Float
+        y = 3.14
+        print(y, type(y))
+      # String
+      name = "John Doe"
+        print(name, type(name))
+      # Boolean
+      is_student = True
+        print(is_student, type(is_student))
+      # List
+      numbers = [1, 2, 3, 4, 5]
+        print(numbers, type(numbers))
+      # Tuple
+      coordinates = (10, 20)
+         print(coordinates, type(coordinates))
+      # Dictionary
+      person = {'name': 'Alice', 'age': 30}
+        print(person, type(person))
+      # Set
+      unique_numbers = {1, 2, 3, 4, 5}
+        print(unique_numbers, type(unique_numbers))
+# Print variables and their types
+print(x, type(x))  # Output: 10 <class 'int'>
+print(y, type(y))  # Output: 3.14 <class 'float'>
+print(name, type(name))  # Output: John Doe <class 'str'>
+print(is_student, type(is_student))  # Output: True <class 'bool'>
+print(numbers, type(numbers))  # Output: [1, 2, 3, 4, 5] <class 'list'>
+print(coordinates, type(coordinates))  # Output: (10, 20) <class 'tuple'>
+print(person, type(person))  # Output: {'name': 'Alice', 'age': 30} <class 'dict'>
+print(unique_numbers, type(unique_numbers))  # Output: {1, 2, 3, 4, 5} <class 'set'>
+ 
 
 5. Control Structures:
    - Explain the use of conditional statements and loops in Python. Provide examples of an `if-else` statement and a `for` loop.
