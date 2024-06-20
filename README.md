@@ -41,7 +41,57 @@ Answer the following questions based on your understanding of Python programming
 
     Run the downloaded installer.
     Make sure to check the box that says "Add Python to PATH".
+    ![alt text](download.jpg)
     Choose "Install Now" or customize the installation according to your preference.
+
+    Complete Installation:
+
+      The installation process will begin, and you will see a progress bar.
+      Once the installation is complete, click "Close".
+
+      Verify the Installation:
+
+      Open Command Prompt or git bash:
+
+      Press Win + R, type cmd, and press Enter.
+      Check the Python Version:
+
+    Type "python --version or python -V" and press Enter.
+
+     You should see the installed Python version displayed in the Command Prompt.
+
+    Check the Pip Version:
+
+    Type pip --version and press Enter.
+
+     You should see the installed Pip version displayed in the Command Prompt
+
+    Setting Up a Virtual Environment:
+
+    Navigate to Your Project Directory:
+
+    Use the cd command in the Command Prompt to navigate to your project directory.
+
+    Example: cd path\to\your\project.
+
+     Create a Virtual Environment:
+
+     Type python -m venv venv and press Enter.
+
+      This command creates a virtual environment named venv in your project directory.
+
+     Activate the Virtual Environment:
+
+    Type venv\Scripts\activate and press Enter.
+
+     You should see (venv) at the beginning of the command prompt line, indicating that the virtual environment is activated.
+
+     Deactivate the Virtual Environment:
+
+     To deactivate the virtual environment, type deactivate and press Enter.
+     ![alt text](<Screenshot 2024-06-20 205251.png>)
+
+     
 3. Python Syntax and Semantics:
    - Write a simple Python program that prints "Hello, World!" to the console. Explain the basic syntax elements used in the program.
 
