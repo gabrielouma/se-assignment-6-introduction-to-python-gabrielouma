@@ -20,14 +20,27 @@ Answer the following questions based on your understanding of Python programming
     *Programmers do not have to declare variable types when writing code because Python determines them at runtime. Because of this, you can write Python programs more quickly.
 
     <b>Use Cases Where Python is Particularly Effective:</b>
-    
+
       *Web Development: Frameworks like Django and Flask allow for the rapid development of robust web  applications.
       Example: A social media platform or a content management system (CMS).
+
       *Python scripts can automate repetitive tasks and system administration jobs.for Example: Automating file backups or generating reports from log files.
 
 2. Installing Python:
    - Describe the steps to install Python on your operating system (Windows, macOS, or Linux). Include how to verify the installation and set up a virtual environment.
+   
+   <b>Here are the steps to install Python on different operating systems (Windows, macOS, and Linux), verify the installation, and set up a virtual environment.</b>
 
+    <Windows
+    Download Python:
+
+    Go to the official Python website: https://www.python.org/
+    Navigate to the Downloads section and select the latest stable version of Python for Windows.
+    Run the Installer:
+
+    Run the downloaded installer.
+    Make sure to check the box that says "Add Python to PATH".
+    Choose "Install Now" or customize the installation according to your preference.
 3. Python Syntax and Semantics:
    - Write a simple Python program that prints "Hello, World!" to the console. Explain the basic syntax elements used in the program.
 
