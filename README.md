@@ -129,7 +129,7 @@ Answer the following questions based on your understanding of Python programming
 
        # Integer
         x = 10
-        
+
         print(x, type(x))   
        # Float
         y = 3.14
@@ -166,14 +166,115 @@ Answer the following questions based on your understanding of Python programming
 5. Control Structures:
    - Explain the use of conditional statements and loops in Python. Provide examples of an `if-else` statement and a `for` loop.
 
+   # Conditional Statements (if-else)
+  Conditional statements allow you to make decisions in your code based on certain conditions. 
+
+   here is the example:
+     # Check if a number is positive or negative
+      num = -5
+
+     if num >= 0:
+
+    print("The number is positive.")
+
+     else:
+
+    print("The number is negative.")
+
+    if the variable num is greater than or equal to zero, it prints "The number is positive." Otherwise, it prints "The number is negative."
+
+    # Loops (for Loop)
+     Loops are used to iterate over a sequence of elements or execute a block of code repeatedly. 
+
+     here is the example:
+
+     # Print each element of a list
+      fruits = ["apple", "banana", "cherry"]
+
+      for fruit in fruits:
+
+      print(fruit)
+
+      In this example, the for loop iterates over each element in the fruits list and prints each element.
+
+
 6. Functions in Python:
    - What are functions in Python, and why are they useful? Write a Python function that takes two arguments and returns their sum. Include an example of how to call this function.
 
+     Functions in Python are blocks of reusable code that perform a specific task. They are defined using the def keyword followed by the function name, parameters, and a code block. Functions are useful for organizing code, promoting reusability, and improving readability.
+    
+    # Here's an example of a Python function that takes two arguments and returns their sum: 
+     def add_two_numbers(num1, num2):
+
+     return num1 + num2
+
+     result = add_two_numbers(3, 4)
+
+      print(result)
+
+      def add_numbers(num1, num2): defines a function named add_numbers that takes two arguments, num1 and num2.
+      The return num1 + num2 statement returns the sum of num1 and num2. 
+
+      add_numbers(3, 4) calls the add_numbers function with arguments 3 and 4, and the returned value 7 is stored in the variable result and then printed.
+    
 7. Lists and Dictionaries:
    - Describe the differences between lists and dictionaries in Python. Write a script that creates a list of numbers and a dictionary with some key-value pairs, then demonstrates basic operations on both.
 
+   Lists and Dictionaries are different data structures in Python. Lists are ordered collections of items, whereas the dictionary is an unordered collection of data in a key: value pair form
+    # Create a list of numbers
+    numbers_list = [1, 2, 3, 4, 5]
+
+# Create a dictionary with key-value pairs
+   person = {
+    "name": "John Doe",
+    "age": 30,
+    "city": "New York"
+}
+
+# Accessing elements
+   print(numbers_list[0])  
+   print(person["name"])  
+
+# Updating elements
+  numbers_list[2] = 10
+  person["age"] = 35
+
+# Adding elements
+   numbers_list.append(6)
+   person["job"] = "Engineer"
+
+# Removing elements
+   numbers_list.remove(4)
+   del person["city"]
+
+   print(numbers_list)  
+   print(person)  
+
+
+
 8. Exception Handling:
    - What is exception handling in Python? Provide an example of how to use `try`, `except`, and `finally` blocks to handle errors in a Python script.
+ 
+  Exception handling in Python is a mechanism to handle runtime errors, allowing a program to continue running despite encountering an error. 
+
+  try block: Contains the code that might raise an exception.
+
+  except block: Catches and handles the exception if it occurs.
+
+  finally block: Contains code that will be executed regardless of whether an exception occurs or not, usually for cleanup actions.
+     
+     try:
+    numerator = 10
+    denominator = 0
+
+    result = numerator/denominator
+
+    print(result)
+    except:
+    print("Error: Denominator cannot be 0.")
+
+    # Output: Error: Denominator cannot be 0. 
+
 
 9. Modules and Packages:
    - Explain the concepts of modules and packages in Python. How can you import and use a module in your script? Provide an example using the `math` module.
