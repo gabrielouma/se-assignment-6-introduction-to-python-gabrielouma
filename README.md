@@ -129,38 +129,39 @@ Answer the following questions based on your understanding of Python programming
 
        # Integer
         x = 10
+        
         print(x, type(x))   
        # Float
         y = 3.14
+
         print(y, type(y))
+      
       # String
       name = "John Doe"
+
         print(name, type(name))
       # Boolean
       is_student = True
+
         print(is_student, type(is_student))
       # List
       numbers = [1, 2, 3, 4, 5]
+
         print(numbers, type(numbers))
       # Tuple
-      coordinates = (10, 20)
+      coordinates = (10, 20) 
+
          print(coordinates, type(coordinates))
+
       # Dictionary
       person = {'name': 'Alice', 'age': 30}
+
         print(person, type(person))
       # Set
       unique_numbers = {1, 2, 3, 4, 5}
+
         print(unique_numbers, type(unique_numbers))
-# Print variables and their types
-print(x, type(x))  # Output: 10 <class 'int'>
-print(y, type(y))  # Output: 3.14 <class 'float'>
-print(name, type(name))  # Output: John Doe <class 'str'>
-print(is_student, type(is_student))  # Output: True <class 'bool'>
-print(numbers, type(numbers))  # Output: [1, 2, 3, 4, 5] <class 'list'>
-print(coordinates, type(coordinates))  # Output: (10, 20) <class 'tuple'>
-print(person, type(person))  # Output: {'name': 'Alice', 'age': 30} <class 'dict'>
-print(unique_numbers, type(unique_numbers))  # Output: {1, 2, 3, 4, 5} <class 'set'>
- 
+
 
 5. Control Structures:
    - Explain the use of conditional statements and loops in Python. Provide examples of an `if-else` statement and a `for` loop.
