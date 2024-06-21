@@ -204,13 +204,13 @@ Answer the following questions based on your understanding of Python programming
      Functions in Python are blocks of reusable code that perform a specific task. They are defined using the def keyword followed by the function name, parameters, and a code block. Functions are useful for organizing code, promoting reusability, and improving readability.
     
     # Here's an example of a Python function that takes two arguments and returns their sum: 
-     def add_two_numbers(num1, num2):
 
-     return num1 + num2
+       def add_two_numbers(num1, num2):
+       return num1 + num2
 
-     result = add_two_numbers(3, 4)
+       result = add_two_numbers(3, 4)
+       print(result)  # Output: 7
 
-      print(result)
 
       def add_numbers(num1, num2): defines a function named add_numbers that takes two arguments, num1 and num2.
       The return num1 + num2 statement returns the sum of num1 and num2. 
