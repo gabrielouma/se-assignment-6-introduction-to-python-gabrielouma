@@ -363,22 +363,7 @@ except Exception as e:
 
 
 
-    # Sample list of data
-my_list = ["item1", "item2", "item3", "item4"]
-
-# Specify the file path
-file_path = "main.txt"
-
-# Using "with open" syntax to automatically close the file
-with open(file_path, 'w') as file:
-	# Join the list elements into a single string with a newline character
-	data_to_write = '\n'.join(my_list)
-	
-	# Write the data to the file
-	file.write(data_to_write)
-
-print(f"The list has been written to {file_path}.")
-
+    
 
 
 
