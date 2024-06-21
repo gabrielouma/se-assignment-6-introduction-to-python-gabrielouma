@@ -291,6 +291,8 @@ Answer the following questions based on your understanding of Python programming
        
        # Calculate the square root of 16
        result = sqrt(16)
+
+       # Print the result
        print(result)  # Output: 4.0
 
 
@@ -337,9 +339,9 @@ except Exception as e:
      
      Here's a script that writes a list of strings to a file:
 
-     # Script to write a list of strings to a file
+     #Script to write a list of strings to a file
 
-# List of strings to write to the file
+#List of strings to write to the file
 lines = [
     "First line of text",
     "Second line of text",
@@ -350,14 +352,15 @@ lines = [
 file_name = 'output.txt'
 
 try:
-    # Open the file in write mode
+    #Open the file in write mode
     with open(file_name, 'w') as file:
-        # Write each string in the list to the file
+        #Write each string in the list to the file
         for line in lines:
             file.write(line + '\n')
     print(f"Successfully written to {file_name}")
 except Exception as e:
     print(f"An error occurred: {e}")
+
 
 
 
